@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-RARA/Pods-RARA-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework
+${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework
+${PODS_ROOT}/MagicSDK/MagicSDK/MagicSDK.framework
+${BUILT_PRODUCTS_DIR}/MagicSDK-Web3/MagicSDK_Web3.framework
+${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework
+${BUILT_PRODUCTS_DIR}/Rollbar/Rollbar.framework
+${BUILT_PRODUCTS_DIR}/secp256k1.swift/secp256k1.framework

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "603e6367f732b0345352b365_RARA - Party Mode (v1.0)-p-500.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

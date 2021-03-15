@@ -8,14 +8,37 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var vr : ViewRouter
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+
+        ZStack {
+            
+         LoginInTint()
+         
+            
+            if self.vr.appState == .welcome {
+                Welcome()
+            }
+            
+            if self.vr.appState == .login {
+                LoginView()
+            }
+            
+            if self.vr.appState == .loginSucess {
+                LoginSucess()
+            }
+            
+        
+            
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+          //  .environmentObject(ViewRouter())
     }
 }

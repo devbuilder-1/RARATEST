@@ -3,16 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F04E6FC25FFF16A00E3C44C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F04E6FB25FFF16A00E3C44C /* LoginView.swift */; };
+		1F04E70425FFF18500E3C44C /* LoginViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F04E70325FFF18500E3C44C /* LoginViewModal.swift */; };
+		1F04E70925FFF19800E3C44C /* LoginModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F04E70825FFF19800E3C44C /* LoginModal.swift */; };
+		1F04E70E25FFF1B300E3C44C /* _LoginUIComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F04E70D25FFF1B300E3C44C /* _LoginUIComponents.swift */; };
+		1F04E71325FFF1F400E3C44C /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F04E71225FFF1F400E3C44C /* ViewRouter.swift */; };
+		1F04E71825FFF22C00E3C44C /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F04E71725FFF22C00E3C44C /* Welcome.swift */; };
+		1F04E72A25FFF28700E3C44C /* LoginSucess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F04E72925FFF28700E3C44C /* LoginSucess.swift */; };
 		1F41BAD325FFEFFF0092C2B1 /* RARAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F41BAD225FFEFFF0092C2B1 /* RARAApp.swift */; };
 		1F41BAD525FFEFFF0092C2B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F41BAD425FFEFFF0092C2B1 /* ContentView.swift */; };
 		1F41BAD725FFF0000092C2B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F41BAD625FFF0000092C2B1 /* Assets.xcassets */; };
 		1F41BADA25FFF0000092C2B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F41BAD925FFF0000092C2B1 /* Preview Assets.xcassets */; };
 		1F41BAE525FFF0000092C2B1 /* RARATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F41BAE425FFF0000092C2B1 /* RARATests.swift */; };
 		1F41BAF025FFF0010092C2B1 /* RARAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F41BAEF25FFF0010092C2B1 /* RARAUITests.swift */; };
+		1F9BA31B25FFF7A0001B3E3D /* RARALOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9BA31A25FFF7A0001B3E3D /* RARALOGO.png */; };
+		6B44F714D95772F98E28B0B9 /* Pods_RARA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0B5BC7B9276B9D3F02F4F5 /* Pods_RARA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F04E6FB25FFF16A00E3C44C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1F04E70325FFF18500E3C44C /* LoginViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModal.swift; sourceTree = "<group>"; };
+		1F04E70825FFF19800E3C44C /* LoginModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModal.swift; sourceTree = "<group>"; };
+		1F04E70D25FFF1B300E3C44C /* _LoginUIComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _LoginUIComponents.swift; sourceTree = "<group>"; };
+		1F04E71225FFF1F400E3C44C /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		1F04E71725FFF22C00E3C44C /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		1F04E72925FFF28700E3C44C /* LoginSucess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSucess.swift; sourceTree = "<group>"; };
 		1F41BACF25FFEFFF0092C2B1 /* RARA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RARA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F41BAD225FFEFFF0092C2B1 /* RARAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RARAApp.swift; sourceTree = "<group>"; };
 		1F41BAD425FFEFFF0092C2B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +61,11 @@
 		1F41BAEB25FFF0010092C2B1 /* RARAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RARAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F41BAEF25FFF0010092C2B1 /* RARAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RARAUITests.swift; sourceTree = "<group>"; };
 		1F41BAF125FFF0010092C2B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7E8F3F25FFF5CC00633D74 /* MagicSDK_Web3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MagicSDK_Web3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9BA31A25FFF7A0001B3E3D /* RARALOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RARALOGO.png; sourceTree = "<group>"; };
+		418DDC41760EC3EDC0D75610 /* Pods-RARA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RARA.release.xcconfig"; path = "Target Support Files/Pods-RARA/Pods-RARA.release.xcconfig"; sourceTree = "<group>"; };
+		60CE901D304D9EB9358F9A1A /* Pods-RARA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RARA.debug.xcconfig"; path = "Target Support Files/Pods-RARA/Pods-RARA.debug.xcconfig"; sourceTree = "<group>"; };
+		BE0B5BC7B9276B9D3F02F4F5 /* Pods_RARA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RARA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B44F714D95772F98E28B0B9 /* Pods_RARA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +94,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F04E6FA25FFF12D00E3C44C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1F04E71725FFF22C00E3C44C /* Welcome.swift */,
+				1F04E6FB25FFF16A00E3C44C /* LoginView.swift */,
+				1F04E72925FFF28700E3C44C /* LoginSucess.swift */,
+				1F04E70325FFF18500E3C44C /* LoginViewModal.swift */,
+				1F04E70825FFF19800E3C44C /* LoginModal.swift */,
+				1F04E70D25FFF1B300E3C44C /* _LoginUIComponents.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		1F41BAC625FFEFFF0092C2B1 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +114,8 @@
 				1F41BAE325FFF0000092C2B1 /* RARATests */,
 				1F41BAEE25FFF0010092C2B1 /* RARAUITests */,
 				1F41BAD025FFEFFF0092C2B1 /* Products */,
+				76599AC53DE51F551BFF3435 /* Pods */,
+				C0E6597EFE4827D9729C4357 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +134,10 @@
 			children = (
 				1F41BAD225FFEFFF0092C2B1 /* RARAApp.swift */,
 				1F41BAD425FFEFFF0092C2B1 /* ContentView.swift */,
+				1F04E71225FFF1F400E3C44C /* ViewRouter.swift */,
+				1F04E6FA25FFF12D00E3C44C /* Login */,
 				1F41BAD625FFF0000092C2B1 /* Assets.xcassets */,
+				1F9BA31A25FFF7A0001B3E3D /* RARALOGO.png */,
 				1F41BADB25FFF0000092C2B1 /* Info.plist */,
 				1F41BAD825FFF0000092C2B1 /* Preview Content */,
 			);
@@ -130,6 +170,24 @@
 			path = RARAUITests;
 			sourceTree = "<group>";
 		};
+		76599AC53DE51F551BFF3435 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60CE901D304D9EB9358F9A1A /* Pods-RARA.debug.xcconfig */,
+				418DDC41760EC3EDC0D75610 /* Pods-RARA.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C0E6597EFE4827D9729C4357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F7E8F3F25FFF5CC00633D74 /* MagicSDK_Web3.framework */,
+				BE0B5BC7B9276B9D3F02F4F5 /* Pods_RARA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F41BAF425FFF0010092C2B1 /* Build configuration list for PBXNativeTarget "RARA" */;
 			buildPhases = (
+				A6D546E37A742FBEB60C428B /* [CP] Check Pods Manifest.lock */,
 				1F41BACB25FFEFFF0092C2B1 /* Sources */,
 				1F41BACC25FFEFFF0092C2B1 /* Frameworks */,
 				1F41BACD25FFEFFF0092C2B1 /* Resources */,
+				168CFBEBEC57452B2C8AF310 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9BA31B25FFF7A0001B3E3D /* RARALOGO.png in Resources */,
 				1F41BADA25FFF0000092C2B1 /* Preview Assets.xcassets in Resources */,
 				1F41BAD725FFF0000092C2B1 /* Assets.xcassets in Resources */,
 			);
@@ -254,13 +315,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		168CFBEBEC57452B2C8AF310 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RARA/Pods-RARA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RARA/Pods-RARA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RARA/Pods-RARA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6D546E37A742FBEB60C428B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RARA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F41BACB25FFEFFF0092C2B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F04E70425FFF18500E3C44C /* LoginViewModal.swift in Sources */,
+				1F04E71325FFF1F400E3C44C /* ViewRouter.swift in Sources */,
+				1F04E70925FFF19800E3C44C /* LoginModal.swift in Sources */,
+				1F04E6FC25FFF16A00E3C44C /* LoginView.swift in Sources */,
+				1F04E71825FFF22C00E3C44C /* Welcome.swift in Sources */,
 				1F41BAD525FFEFFF0092C2B1 /* ContentView.swift in Sources */,
 				1F41BAD325FFEFFF0092C2B1 /* RARAApp.swift in Sources */,
+				1F04E72A25FFF28700E3C44C /* LoginSucess.swift in Sources */,
+				1F04E70E25FFF1B300E3C44C /* _LoginUIComponents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +524,7 @@
 		};
 		1F41BAF525FFF0010092C2B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60CE901D304D9EB9358F9A1A /* Pods-RARA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -430,12 +541,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.prithivdev.RARA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1F41BAF625FFF0010092C2B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418DDC41760EC3EDC0D75610 /* Pods-RARA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,7 +564,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.prithivdev.RARA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
